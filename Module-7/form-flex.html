@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form-flex</title>
+    <style>
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        nav a{
+            text-decoration: none;
+            color: black;
+            margin-right:10px ;
+        }
+        form{
+            /* border: 1px solid salmon; */
+            width: 50%;
+            height: 50vh;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        form h3{
+            text-align: center;
+        }
+        form input{
+            margin-bottom: 20px;
+        }
+        form .first-container{
+            /* border: 1px solid magenta; */
+            width: 50%;
+        
+        }
+        form .form-container{
+            display: flex;
+            flex-direction: column;
+            /* border: 1px solid rebeccapurple; */
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div><a href="">Home</a><a href="">About</a><a href="">Contact</a><a href="">Blog</a></div>
+        <div><a href="">Login</a></div>
+    </nav>
+
+    <form>
+        <div class="first-container">
+            <h3>Contact Form</h3>
+        <div class="form-container">
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <input type="submit" value="submit"> 
+        </div>
+        </div>        
+    </form>
+
+</body>
+</html>

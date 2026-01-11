@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        .container{
+            border: 1px solid salmon;
+            width: 80vw;
+            height: 80vh;
+            margin: 0 auto;
+            display: grid;
+            /* grid-template-columns: 200px 200px; */
+            /* grid-template-columns: repeat(4,200px); */
+            /* grid-template-columns: repeat(2,2fr) 5fr; */
+            /* grid-template-rows:repeat(10,200px); */
+            grid-template-columns: 200px 200px;
+            justify-content:space-around;
+            align-items: center;
+            /* grid-gap: 20px; */
+            column-gap: 200px;
+            /* row-gap: 50px; */
+
+        }
+        .items{
+            border: 1px solid blue;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2 style="text-align: center
+    
+     ;">Explore grid layout : 2d layout</h2>
+    <div class="container">
+        <div class="items">Item-1</div>
+        <div class="items">Item-2</div>
+        <div class="items">Item-3</div>
+        <div class="items">Item-4</div>
+        <div class="items">Item-5</div>
+        <div class="items">Item-6</div>
+        <div class="items">Item-7</div>
+        <div class="items">Item-8</div>
+        <div class="items">Item-9</div>
+        <div class="items">Item-10</div>
+        <div class="items">Item-11</div>
+        <div class="items">Item-12</div>
+        <div class="items">Item-13</div>
+        <div class="items">Item-14</div>
+        <div class="items">Item-15</div>
+        <div class="items">Item-16</div>
+        <div class="items">Item-17</div>
+        <div class="items">Item-18</div>
+        <div class="items">Item-19</div>
+        <div class="items">Item-20</div>
+    </div>
+</body>
+</html>
